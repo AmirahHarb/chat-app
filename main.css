@@ -1,0 +1,83 @@
+/* html{
+    padding-left: 5em;
+    padding-right: 5em;
+} */
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling input box */
+#message-text{
+    /* border-radius: 10px; */
+    /* height: 1.5em; */
+    border: none;
+    background: none; 
+     
+}
+/* removing outline from input box when focused */
+input:focus{
+    outline: none;
+}
+/* removing default border and background */
+#send-button{
+    border: none;
+    background: none;
+}
+
+#send-form{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    height: 1.5em;
+    
+    /* position: fixed;
+    
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%); */
+    
+
+}
+
+#send-bar-cont {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    
+
+}
+
+#send-bar{
+    width: 350px;
+}
+
+#send-form{
+    display: flex;
+    /* flex-direction: row; */
+    
+}
+input{
+    flex-grow: 2;
+    padding-left: 15px;
+   
+}
+#send-button{
+    padding-right:15px;
+}
+#message-cont{
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    height: calc(100% - 25px);
+    
+    /* overflow: scroll;
+    overflow-x: hidden; */
+    
+    
+}
+
+

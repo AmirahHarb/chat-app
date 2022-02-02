@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.8">
+    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+    <title>Chat</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js" ></script>
+    <script defer src="client.js" ></script>
+</head>
+<body>
+    <div id = "message-cont"></div>
+     <div id ="send-bar-cont">
+         <div id = "send-bar">
+     </div>
+    <form id = "send-form">
+        <input type = "text" id = "message-text" placeholder = "Write a reply...">
+        <button type = "submit" id = "send-button" ><img src = "images/sendGrey.png" height ="10" width="10"></button>
+    </form>
+    </div>
+</body>
+</html>
