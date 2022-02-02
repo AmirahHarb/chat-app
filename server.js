@@ -15,10 +15,10 @@ io.on('connection', socket => {
     })
     
     socket.on('send-message', message =>{
-      //appending senders user name to message using source socket ID
+
       const senderName = users[socket.id]
       const fullMessage = senderName + message
-      socket.broadcast.emit('sent-message', fullMessage) //excludes original sender
+      socket.broadcast.emit('sent-message', fullMessage) 
     })
 
     
