@@ -17,10 +17,8 @@ io.on('connection', socket => {
     socket.on('send-message', message =>{
 
       const senderName = users[socket.id]
-      const fullMessage = senderName + message
+      const fullMessage = message
       socket.broadcast.emit('sent-message', fullMessage) 
     })
-
-    
 })
 
