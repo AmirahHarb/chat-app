@@ -57,4 +57,53 @@ input{
     height: calc(100% - 25px);
 }
 
+.cred-input{
+    margin-bottom: 1em;
+    border-radius: 1em;
+    border: 0.125em solid #E0E1DD;
+    padding:0.5em 0.5em 0.5em 1em;
+    
+    
+}
+
+.cred-submit{
+    border-radius: 1em;
+    border: none;
+    background-color: #8572ED;
+    padding:0.5em 0.5em 0.5em 1em;
+    width: 50%;
+    color: #FFFF;
+    
+}
+
+.cred-container{
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 1em 1em 1em 1em;
+    background-color: #FFFF;
+    border-radius: 1em;
+
+    color:#311E69;
+    
+}
+
+.cred-container a {
+    color: #8572ED;
+}
+
+.cred-container p {
+
+    color: #a5a5a5;
+    
+}
+
 
